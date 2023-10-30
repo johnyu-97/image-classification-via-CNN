@@ -822,20 +822,7 @@ augmentation parameters to the final accuracy. </li>
 Figure 9. Example images from Fashion-MNIST
 </p>
 </center>
-<h2 data-number="8.3" id="submission-instruction"><span
-class="header-section-number">8.3</span> Submission instruction</h2>
-<p>Your submission should include:</p>
-<ol type="1">
-<li>A report, containing
-<ul>
-<li>your answer to above questions</li>
-<li>screenshots of your program output.</li>
-</ul></li>
-<li>All python source file.</li>
-<li>The saved models – <code>model.pth</code> and
-<code>fashion_mnist.pth</code>.</li>
-<li><strong>Do not</strong> upload the datasets used for training.</li>
-</ol>
+
 <p>Please submit before <strong>23:59 on April 30 (Sunday)</strong>. You
 may submit as many times as you want, but only your latest submission
 will be graded.</p>
