@@ -823,8 +823,5 @@ Figure 9. Example images from Fashion-MNIST
 </p>
 </center>
 
-<p>Please submit before <strong>23:59 on April 30 (Sunday)</strong>. You
-may submit as many times as you want, but only your latest submission
-will be graded.</p>
 </body>
 </html>
