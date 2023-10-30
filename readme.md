@@ -58,17 +58,12 @@ class="toc-section-number">7.1</span> Install CUDA</a></li>
 id="toc-adapt-your-code-for-gpu"><span
 class="toc-section-number">7.2</span> Adapt your code for GPU</a></li>
 </ul></li>
-<li><a href="#assignment" id="toc-assignment"><span
-class="toc-section-number">8</span> Assignment</a>
-<ul>
 <li><a href="#handwritten-digit-recognition-18-points"
 id="toc-handwritten-digit-recognition-18-points"><span
-class="toc-section-number">8.1</span> Handwritten digit recognition (18
-points)</a></li>
+class="toc-section-number">8.1</span> Handwritten digit recognition </a></li>
 <li><a href="#bonus-fashion-mnist-3-points"
 id="toc-bonus-fashion-mnist-3-points"><span
-class="toc-section-number">8.2</span> Bonus: Fashion-MNIST (3
-points)</a></li>
+class="toc-section-number">8.2</span> Bonus: Fashion-MNIST </a></li>
 <li><a href="#submission-instruction"
 id="toc-submission-instruction"><span
 class="toc-section-number">8.3</span> Submission instruction</a></li>
@@ -724,7 +719,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a h
 class="header-section-number">8</span> Assignment</h1>
 <h2 data-number="8.1" id="handwritten-digit-recognition-18-points"><span
 class="header-section-number">8.1</span> Handwritten digit recognition
-(18 points)</h2>
+</h2>
 <p>Modify <code>train.py</code>, and <code>model.py</code> to train a
 CNN to recognize hand-written digits in MNIST datasets.</p>
 <center>
@@ -779,7 +774,7 @@ recognize which digit the image represent. All image are grey scale
 </ol>
 <p>Tasks:</p>
 <ol type="1">
-<li>Answer following questions first (7 points):
+<li>Answer following questions first:
 <ul>
 <li>Assume we set <code>batch_size=8</code>, what shape do above 7
 layers’ inputs and outputs have?</li>
@@ -788,17 +783,15 @@ layers’ inputs and outputs have?</li>
 <li>Train a CNN to recognize hand-written digits in MNIST datasets.
 <ul>
 <li>Modify <code>model.py</code> to create a CNN with architecture
-specified above. (7 points)</li>
+specified above. </li>
 <li>Modify <code>train.py</code> and <code>dataset.py</code> to train it
 on MNIST dataset. Your model should achieve an accuracy higher than 95%
 on test set. Usually, more than 3 epochs are enough to achieve this
-accuracy. Save your model to file <code>model.pth</code>. (4
-points)</li>
+accuracy. Save your model to file <code>model.pth</code>. </li>
 </ul></li>
 </ol>
 <h2 data-number="8.2" id="bonus-fashion-mnist-3-points"><span
-class="header-section-number">8.2</span> Bonus: Fashion-MNIST (3
-points)</h2>
+class="header-section-number">8.2</span> Bonus: Fashion-MNIST </h2>
 <p>MNIST is too easy. Convolutional nets can achieve 99%+ accuracy on
 MNIST. Fashion-MNIST, containing ten different classes of clothes, is
 more challenging than MNIST. Your task is to load predefined CNN - <a
@@ -814,15 +807,14 @@ this part.</p>
 <ul>
 <li>Apply torchvision.transforms.Resize to resize images in
 Fashion-MNIST to fit the input size of ResNet18. The input and output
-layer of the network also need modification to fit Fashion-MNIST. (0.5
-point)</li>
+layer of the network also need modification to fit Fashion-MNIST.</li>
 <li>Try data augmentation functions like
 torchvision.transforms.RandomHorizontalFlip and
 torchvision.transforms.RandomRotation, discuss the influence of the data
-augmentation parameters to the final accuracy. (0.5 point)</li>
+augmentation parameters to the final accuracy. </li>
 </ul></li>
 <li><p>Train the model, Save the final model to
-<code>fashion_mnist.pth</code> (2 points).</p></li>
+<code>fashion_mnist.pth</code> .</p></li>
 </ol>
 <center>
 <img src="https://github.com/zalandoresearch/fashion-mnist/blob/master/doc/img/fashion-mnist-sprite.png?raw=true" style="width:50%">
